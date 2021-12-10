@@ -1,0 +1,160 @@
+body {
+    background-color: green;
+}
+
+.carta {
+    position: absolute;
+    top: 220px;
+    left: 700px;
+    transform: rotateZ(30deg);
+    height: 200px;
+    width: 150px;
+    background-color: rgb(240,240,240);
+    border-radius: 10px;
+    border: black 3px solid;
+}
+
+.numeropalo {
+    font-size: 25px;
+    position: absolute;
+    left: 5px;
+}
+
+.numeropaloinvertido {
+    transform: rotateZ(180deg);
+    position: absolute;
+    top: 140px;
+    left: 120px;
+}
+
+.figura {
+    font-size: 50px;
+    position: absolute;
+}
+
+#picas4 {
+    z-index: 20;
+    top: 180px;
+    left: 500px;
+    transform: rotateZ(-15deg);
+}
+
+#picas4_1 {
+top: 10px;
+left: 25px;
+}
+
+#picas4_2 {
+top: 10px;
+left: 85px;
+}
+
+#picas4_3 {
+    top: 130px;
+    left: 25px;
+    transform: rotateZ(180deg);
+}
+
+#picas4_4 {
+    top: 130px;
+    left: 85px;
+
+    transform: rotateZ(180deg);
+}
+
+#trebol7 {
+    z-index: 40px;
+}
+
+#trebol7_1{
+    top: 5px;
+    left: 25px;
+}
+
+#trebol7_2{
+    top: 5px;
+    left: 85px;
+}
+
+#trebol7_3 {
+    top: 130px;
+    left: 85px;
+    transform: rotateZ(180deg);
+}
+
+#trebol7_4 {
+    top: 130px;
+    left: 25px;
+    transform: rotateZ(180deg);
+}
+
+#trebol7_5 {
+top: 70px;
+left: 25px;
+transform: rotateZ(180deg);
+}
+
+#trebol7_6 {
+top: 35px;
+left: 55px;
+}
+
+#trebol7_7 {
+top: 70px;
+left: 85px;
+transform: rotateZ(180deg);
+}
+
+#corazones6 {
+    z-index: 30;
+    color: red;
+    top: 220px;
+    left: 400px;
+    transform: rotateZ(-30deg);
+}
+
+#corazones6_1 {
+    top: 10px;
+    left: 25px;
+}
+
+#corazones6_2 {
+    top: 10px;
+    left: 85px;
+}
+
+#corazones6_3 {
+    top: 70px;
+    left: 25px;
+}
+
+#corazones6_4 {
+    top: 70px;
+    left: 85px;
+}
+
+#corazones6_5 {
+    top: 130px;
+    left: 25px;
+    transform: rotateZ(180deg);
+    
+}
+
+#corazones6_6 {
+    top: 130px;
+    left: 85px;
+    transform: rotateZ(180deg);
+}
+
+#diamantes1 {
+    z-index: 10;
+    color: red;
+    top: 180px;
+    left: 600px;
+    transform: rotateZ(15deg);
+}
+
+#diamantes1_1 {
+    top: 65px;
+    left: 55px;
+}
